@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+ const mongoose = require('mongoose');
 const { User, Thought, Reaction } = require('../models');
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/socialNetworkDB', {
